@@ -1,0 +1,33 @@
+a {
+	color: #00aaff;
+}
+
+div.title div.logo {
+	border: 1px solid #00aaff;
+	color: #00aaff;
+}
+
+.header {
+	border-bottom: 3px solid #00aaff;
+}
+
+.header a,
+.footer a {
+	color: #00aaff;
+}
+
+.footer {
+	border-top: 3px solid #00aaff;
+}
+
+.section {	
+	border-bottom: 1px solid #00aaff;
+}
+
+div.post {
+	border-top: 2px solid #00aaff;
+}
+
+div.post a {
+	color: #206f96; /* monochromatic - black */
+}
