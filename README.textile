@@ -1,4 +1,4 @@
-*Effective Programming's* _Podcasts_
+*Effective Programming* _Podcasts_
 
 Code examples are MIT licensed. The rest of the content is my own.
 
