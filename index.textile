@@ -5,7 +5,7 @@ title: Home
 
 <div class="section">
 
-h3. Recent Podcasts
+h3. Recent Episodes
 
 <ul class="posts">
     {% for post in site.posts %}
