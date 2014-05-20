@@ -20,8 +20,8 @@ h3. Subscribe
 h3. Hosts
 
 * Mark Sands
-* Eric Jones
 * Luther Baker
+* Eric Jones
 
 h3. Discussion
 

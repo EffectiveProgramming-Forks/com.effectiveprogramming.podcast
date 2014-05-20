@@ -1,5 +1,5 @@
-name: Effective Programming Podcasts
-title: podcasts
+name: Effective Programming Podcast
+title: podcast
 markdown: redcarpet
 pygments: true
 exclude: [run.sh]
