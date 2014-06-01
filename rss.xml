@@ -1,0 +1,59 @@
+---
+layout: nil
+---
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+ 
+<channel>
+ 
+<title>Effective Programming</title>
+ 
+<link>http://www.effectiveprogramming.com/</link>
+ 
+<language>en</language>
+ 
+<copyright>&#xA9; 2014 Luther Baker</copyright>
+ 
+<itunes:subtitle>Discussion around </itunes:subtitle>
+ 
+<itunes:author>Luther Baker</itunes:author>
+ 
+<itunes:keywords>ios,programming,software,agile,technology</itunes:keywords>
+ 
+<itunes:summary>A podcast from Effective Programming that discusses programming effectively - especially as it relates to iOS and agility.</itunes:summary>
+ 
+<description>A podcast from Effective Programming that discusses programming effectively - especially as it relates to iOS and agility.</description>
+ 
+<itunes:owner>
+ 
+<itunes:name>Luther Baker</itunes:name>
+  
+</itunes:owner>
+ 
+<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast600.png" />
+ 
+<itunes:category text="Technology" />
+ 
+<itunes:new-feed-url>http://feeds.effectiveprogramming.com/EffectiveProgrammingPodcast</itunes:new-feed-url>
+ 
+{% for post in site.categories.episodes limit:10 %}
+<item>
+<title>{{ post.title }}</title>
+<itunes:author>Luther Baker</itunes:author>
+<itunes:subtitle>Effective Programming: {{ post.title }}</itunes:subtitle>
+<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast600.png" />
+<enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/x-m4a" />
+<guid>{{ post.link }}</guid>
+<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
+<itunes:duration>{{ post.duration }}</itunes:duration>
+<itunes:keywords>ios,programming,software,agile,technology</itunes:keywords>
+</item>
+ 
+{% endfor %}
+ 
+</channel>
+ 
+</rss>

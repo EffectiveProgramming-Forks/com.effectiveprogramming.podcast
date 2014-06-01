@@ -1,6 +1,10 @@
 ---
 layout: post
 title: TDD in the Balance
+episode: 01
+duration: 59:12
+length: 28212979
+link: http://podcast.effectiveprogramming.com/episodes/2014-05-09-tdd-in-the-balance.mp3
 ---
 
 "Episode 01 - TDD in the Balance":http://hipcast.com/podcast/HZlXsBVQ
