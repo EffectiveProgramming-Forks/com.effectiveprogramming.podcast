@@ -7,8 +7,13 @@ layout: nil
 	<channel>
 		<title>Effective Programming</title>
 		<link>http://www.effectiveprogramming.com/</link>
-		<language>en</language>
+		<language>en-us</language>
 		<copyright>&#xA9; 2014 Luther Baker</copyright>
+		<image>
+			<title>Effective Programming Podcast</title>
+			<link>http://www.effectiveprogramming.com/</link>
+			<url>http://podcast.effectiveprogramming.com/icons/podcast1400.png</url>
+		</image>
 		<itunes:subtitle>Effective Programming Discussions</itunes:subtitle>
 		<itunes:author>Luther Baker</itunes:author>
 		<itunes:keywords>ios,programming,software,agile,technology</itunes:keywords>
@@ -19,13 +24,13 @@ layout: nil
 			<itunes:email>effectiveprogrammingpodcast@gmail.com</itunes:email>
 		</itunes:owner>
 		<itunes:explicit>no</itunes:explicit>
-		<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast600.png" />
+		<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast1400.png" />
 		<itunes:category text="Technology" />{% for post in site.categories.episodes limit:10 %}
 		<item>
 			<title>{{ post.title }}</title>
 			<itunes:author>Luther Baker</itunes:author>
 			<itunes:subtitle>Effective Programming: {{ post.title }}</itunes:subtitle>
-			<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast600.png" />
+			<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast1400.png" />
 			<itunes:summary>{{ post.summary }}</itunes:summary>
 			<enclosure url="{{ post.link }}" length="{{ post.bytes }}" type="audio/x-m4a" />
 			<guid>{{ post.link }}</guid>

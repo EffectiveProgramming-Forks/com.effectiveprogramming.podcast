@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="section">
+<h2>{{ page.title }}</h2>
+<p class="meta"><div class="author">{{ page.author }}</div><div class="date">{{ page.date | date_to_string }}</div></p>
+</div>
+
+<div class="post">
+<img src="/icons/podcast300.png" style="float: right; margin: 1em"/>
+
+<p><a href="{{ page.link }}">Episode {{ page.episode }} - {{ page.title }}</a></p>
+
+<audio controls>
+  <source src="{{ page.link }}" type="audio/mpeg">
+	  Your browser does not support the HTML5 Audio Player.
+</audio>
+
+<p><em>The notes listed herein are intended as a cursory overview. Please be sure and listen to the episode to hear exactly what was said.</em></p>
+
+<h3>Subscribe</h3>
+
+<ul>
+	<li><a href="https://itunes.apple.com/us/podcast/effective-programming-podcast/id878947397">iTunes</a></li>
+	<li><a href="http://feeds.effectiveprogramming.com/EffectiveProgrammingPodcast">RSS</a></li>
+</ul>
+
+{{ content }}
+</div>
+
