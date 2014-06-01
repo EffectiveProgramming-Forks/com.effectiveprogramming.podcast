@@ -3,8 +3,9 @@ layout: nil
 ---
 
 <?xml version="1.0" encoding="UTF-8"?> 
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
+		<atom:link href="http://feedburner.effectiveprogramming.com/EffectiveProgrammingPodcast" rel="self" type="application/rss+xml" />
 		<title>Effective Programming</title>
 		<link>http://www.effectiveprogramming.com/</link>
 		<language>en</language>
@@ -20,8 +21,7 @@ layout: nil
 		</itunes:owner>
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast600.png" />
-		<itunes:category text="Technology" />
-{% for post in site.categories.episodes limit:10 %}
+		<itunes:category text="Technology" />{% for post in site.categories.episodes limit:10 %}
 		<item>
 			<title>{{ post.title }}</title>
 			<itunes:author>Luther Baker</itunes:author>
@@ -33,7 +33,6 @@ layout: nil
 			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
 			<itunes:duration>{{ post.duration }}</itunes:duration>
 			<itunes:keywords>ios,programming,software,agile,technology</itunes:keywords>
-		</item>
-{% endfor %}
+		</item>{% endfor %}
 	</channel>
 </rss>
