@@ -16,6 +16,7 @@ layout: nil
 		<description>A podcast from Effective Programming that discusses programming effectively - especially as it relates to iOS and agility.</description>
 		<itunes:owner>
 			<itunes:name>Luther Baker</itunes:name>
+			<itunes:email>effectiveprogrammingpodcast@gmail.com</itunes:email>
 		</itunes:owner>
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast600.png" />
@@ -25,9 +26,9 @@ layout: nil
 			<title>{{ post.title }}</title>
 			<itunes:author>Luther Baker</itunes:author>
 			<itunes:subtitle>Effective Programming: {{ post.title }}</itunes:subtitle>
-			<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 			<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast600.png" />
-			<enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/x-m4a" />
+			<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+			<enclosure url="{{ post.link }}" length="{{ post.bytes }}" type="audio/x-m4a" />
 			<guid>{{ post.link }}</guid>
 			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
 			<itunes:duration>{{ post.duration }}</itunes:duration>

@@ -2,9 +2,6 @@
 layout: post
 title: Effective Pair Programming
 episode: 03
-duration: 1:15:38
-length: 36067843
-link: http://podcast.effectiveprogramming.com/episodes/2014-05-23-effective-pair-programming.mp3
 ---
 
 "Episode 03 - Effective Pair Programming":http://www.hipcast.com/podcast/HDMwN9GQ

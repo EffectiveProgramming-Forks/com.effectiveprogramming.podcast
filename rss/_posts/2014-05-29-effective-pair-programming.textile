@@ -2,8 +2,8 @@
 layout: rss
 title: Effective Pair Programming
 episode: 03
-duration: 1:15:38
-length: 36067843
+duration: '1:15:38'
+bytes: 36067843
 link: http://podcast.effectiveprogramming.com/episodes/2014-05-23-effective-pair-programming.mp3
 ---
 

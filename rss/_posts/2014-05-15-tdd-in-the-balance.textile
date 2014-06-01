@@ -2,8 +2,8 @@
 layout: rss
 title: TDD in the Balance
 episode: 01
-duration: 59:12
-length: 28212979
+duration: '59:12'
+bytes: 28212979
 link: http://podcast.effectiveprogramming.com/episodes/2014-05-09-tdd-in-the-balance.mp3
 ---
 

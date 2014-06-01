@@ -2,8 +2,8 @@
 layout: rss
 title: iOS Eventing Frameworks
 episode: 02
-duration: 1:02:16
-length: 29689675
+duration: '1:02:16'
+bytes: 29689675
 link: http://podcast.effectiveprogramming.com/episodes/2014-05-19-ios-eventing-frameworks.mp3
 ---
 
