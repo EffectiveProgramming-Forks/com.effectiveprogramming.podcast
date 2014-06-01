@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 title: Effective Pair Programming
 episode: 03
 duration: '1:15:38'
@@ -7,20 +7,6 @@ bytes: 36067843
 link: http://podcast.effectiveprogramming.com/episodes/2014-05-23-effective-pair-programming.mp3
 summary: We discuss Pair Programming - the good, the bad and the space in-between.
 ---
-
-"Episode 03 - Effective Pair Programming":http://www.hipcast.com/podcast/HDMwN9GQ
-
-<audio controls>
-  <source src="http://feeds.effectiveprogramming.com/-/64921411/0/effectiveprogrammingpodcast~Effective-Pair-Programming-Enclosure.mp3" type="audio/mpeg">
-	  Your browser does not support the HTML5 Audio Player.
-</audio>
-
-<em>The notes listed herein are intended as a cursory overview. Please be sure and listen to the episode to hear exactly what was said.</em>
-
-h3. Subscribe
-
-* "iTunes":https://itunes.apple.com/us/podcast/effective-programming-podcast/id878947397 
-* "RSS":http://feeds.effectiveprogramming.com/EffectiveProgrammingPodcast
 
 h3. Hosts
 

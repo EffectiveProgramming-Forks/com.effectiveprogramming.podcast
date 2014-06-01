@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 title: iOS Eventing Frameworks
 episode: 02
 duration: '1:02:16'
@@ -7,20 +7,6 @@ bytes: 29689675
 link: http://podcast.effectiveprogramming.com/episodes/2014-05-19-ios-eventing-frameworks.mp3
 summary: We walk through a project Mark Sands committed to github demonstrating different eventing frameworks.
 ---
-
-"Episode 02 - iOS Eventing Frameworks":http://hipcast.com/podcast/HNvTRWHQ
-
-<audio controls>
-  <source src="http://feeds.effectiveprogramming.com/-/64330917/0/effectiveprogrammingpodcast~iOS-Eventing-Frameworks-Enclosure.mp3" type="audio/mpeg">
-	  Your browser does not support the HTML5 Audio Player.
-</audio>
-
-<em>The notes listed herein are intended as a cursory overview. Please be sure and listen to the episode to hear exactly what was said.</em>
-
-h3. Subscribe
-
-* "iTunes":https://itunes.apple.com/us/podcast/effective-programming-podcast/id878947397 
-* "RSS":http://feeds.effectiveprogramming.com/EffectiveProgrammingPodcast
 
 h3. Hosts
 
