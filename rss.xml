@@ -8,7 +8,7 @@ layout: nil
 		<title>Effective Programming</title>
 		<link>http://www.effectiveprogramming.com/</link>
 		<language>en-us</language>
-		<copyright>&#xA9; 2014 Luther Baker</copyright>
+		<copyright>&#xA9; 2014 Luther Baker All Rights Reserved</copyright>
 		<image>
 			<title>Effective Programming Podcast</title>
 			<link>http://www.effectiveprogramming.com/</link>
@@ -28,6 +28,7 @@ layout: nil
 		<itunes:category text="Technology" />{% for post in site.categories.episodes limit:10 %}
 		<item>
 			<title>{{ post.title }}</title>
+			<description><![CDATA[{{ post.summary }}]]></description>
 			<itunes:author>Luther Baker</itunes:author>
 			<itunes:subtitle>Effective Programming: {{ post.title }}</itunes:subtitle>
 			<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast1400.png" />
