@@ -14,10 +14,10 @@ layout: nil
 			<link>http://www.effectiveprogramming.com/</link>
 			<url>http://podcast.effectiveprogramming.com/icons/podcast1400.png</url>
 		</image>
-		<lastBuildDate>Mon, 02 Jun 2014 21:06:46 GMT</lastBuildDate>
+		<lastBuildDate>Mon, 02 Jun 2014</lastBuildDate>
 	    <category>Technology</category>
 	    <ttl>60</ttl>
-		<itunes:subtitle>Effective Programming Discussions</itunes:subtitle>
+		<itunes:subtitle>iOS and Agile Discussions About Programming Effectively</itunes:subtitle>
 		<itunes:author>Luther Baker</itunes:author>
 		<itunes:keywords>ios,programming,software,agile,technology</itunes:keywords>
 		<itunes:summary>A podcast from Effective Programming that discusses programming effectively - especially as it relates to iOS and agility.</itunes:summary>
@@ -31,19 +31,19 @@ layout: nil
 		<itunes:category text="Technology" />{% for post in site.categories.episodes limit:10 %}
 		<item>
 			<guid isPermalink="true">{{ post.link }}</guid>
-			<title><![CDATA[{{ post.title }}]]></title>
-			<description><![CDATA[{{ post.summary }}]]></description>
+			<title>{{ post.title }}></title>
+			<description>{{ post.summary }}</description>
 			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
 			<link>{{ post.link }}</link>
 			<enclosure url="{{ post.link }}" length="{{ post.bytes }}" type="audio/x-m4a" />
-			<itunes:author><![CDATA[Luther Baker]]></itunes:author>
-			<itunes:subtitle><![CDATA[Effective Programming: {{ post.title }}]]></itunes:subtitle>
+			<itunes:author>Luther Baker</itunes:author>
+			<itunes:subtitle>Effective Programming: {{ post.title }}</itunes:subtitle>
 			<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast1400.png" />
-			<itunes:summary><![CDATA[{{ post.summary }}]]></itunes:summary>
-			<itunes:duration><![CDATA[{{ post.duration }}]]></itunes:duration>
+			<itunes:summary>{{ post.summary }}></itunes:summary>
+			<itunes:duration>{{ post.duration }}></itunes:duration>
 			<itunes:keywords>ios,programming,software,agile,technology</itunes:keywords>
-			<media:title><![CDATA[{{ post.title }}]]></media:title>
-			<media:text type="plain"><![CDATA[{{ post.summary }}]]></media:text>
+			<media:title>{{ post.title }}></media:title>
+			<media:text type="plain">{{ post.summary }}></media:text>
 			<media:content url="{{ post.link }}" type="audio/mpeg" fileSize="{{ post.bytes }}" duration="{{ post.duration }}"/>
 		</item>{% endfor %}
 	</channel>
