@@ -14,7 +14,7 @@ layout: nil
 			<link>http://www.effectiveprogramming.com/</link>
 			<url>http://podcast.effectiveprogramming.com/icons/podcast1400.png</url>
 		</image>
-		<lastBuildDate>Mon, 02 Jun 2014</lastBuildDate>
+		<lastBuildDate>Tue, 03 Jun 2014</lastBuildDate>
 	    <category>Technology</category>
 	    <ttl>60</ttl>
 		<itunes:subtitle>iOS and Agile Discussions About Programming Effectively</itunes:subtitle>
@@ -31,7 +31,7 @@ layout: nil
 		<itunes:category text="Technology" />{% for post in site.categories.episodes limit:10 %}
 		<item>
 			<guid isPermalink="true">{{ post.link }}</guid>
-			<title>{{ post.title }}></title>
+			<title>{{ post.title }}</title>
 			<description>{{ post.summary }}</description>
 			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
 			<link>{{ post.link }}</link>
@@ -39,11 +39,11 @@ layout: nil
 			<itunes:author>Luther Baker</itunes:author>
 			<itunes:subtitle>Effective Programming: {{ post.title }}</itunes:subtitle>
 			<itunes:image href="http://podcast.effectiveprogramming.com/icons/podcast1400.png" />
-			<itunes:summary>{{ post.summary }}></itunes:summary>
-			<itunes:duration>{{ post.duration }}></itunes:duration>
+			<itunes:summary>{{ post.summary }}</itunes:summary>
+			<itunes:duration>{{ post.duration }}</itunes:duration>
 			<itunes:keywords>ios,programming,software,agile,technology</itunes:keywords>
-			<media:title>{{ post.title }}></media:title>
-			<media:text type="plain">{{ post.summary }}></media:text>
+			<media:title>{{ post.title }}</media:title>
+			<media:text type="plain">{{ post.summary }}</media:text>
 			<media:content url="{{ post.link }}" type="audio/mpeg" fileSize="{{ post.bytes }}" duration="{{ post.duration }}"/>
 		</item>{% endfor %}
 	</channel>
