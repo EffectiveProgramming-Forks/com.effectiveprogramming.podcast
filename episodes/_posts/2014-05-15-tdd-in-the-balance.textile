@@ -4,7 +4,7 @@ title: TDD in the Balance
 episode: 01
 duration: '59:12'
 bytes: 28212979
-link: http://podcast.effectiveprogramming.com/episodes/2014-05-09-tdd-in-the-balance.mp3
+link: http://podcast.effectiveprogramming.com/episodes/2014-05-15-tdd-in-the-balance.mp3
 summary: We discuss the merits of TDD on the heels of @dhh's "TDD is Dead, Long Live Testing"
 ---
 

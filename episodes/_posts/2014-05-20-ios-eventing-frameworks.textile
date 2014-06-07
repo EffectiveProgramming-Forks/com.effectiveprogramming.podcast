@@ -4,7 +4,7 @@ title: iOS Eventing Frameworks
 episode: 02
 duration: '1:02:16'
 bytes: 29689675
-link: http://podcast.effectiveprogramming.com/episodes/2014-05-19-ios-eventing-frameworks.mp3
+link: http://podcast.effectiveprogramming.com/episodes/2014-05-20-ios-eventing-frameworks.mp3
 summary: We walk through a project Mark Sands committed to github demonstrating different eventing frameworks.
 ---
 

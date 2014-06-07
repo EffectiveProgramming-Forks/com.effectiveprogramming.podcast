@@ -1,0 +1,35 @@
+---
+layout: podcast
+title: Staying Agile With UIKit
+episode: 04
+duration: '37:38'
+bytes: 17957515
+link: http://podcast.effectiveprogramming.com/episodes/2014-06-06-staying-agile-with-uikit.mp3
+summary: We discuss how UIKit  makes it difficult to stay agile ... or does it?
+---
+
+h3. Hosts
+
+* "twitter.com/TheKnlght":http://www.twitter.com/TheKnlght (Eric Jones)
+* "twitter.com/LutherBaker":http://www.twitter.com/LutherBaker (Luther Baker)
+* "twitter.com/effprog":http://www.twitter.com/effprog
+
+h3. Discussion
+
+Essentially, depending on an established UI framework can have it's limitations - especially as it relates to agile.
+
+* custom behavior can be time-consuming to build
+* in the long run, would it have been easier to build your own UI components - not all of them, but key ones especially
+* how well must designers understand the platforms they are targetting
+* how do we stay agile with respect to the general UI design
+* wireframes vs final mocks
+* estimations in a business world
+* enterprise products, not so custom
+* creative products, custom controls yeah!
+* style guides
+* UI vs UX
+* graphic design vs workflow
+* agile dodging, positioning body correctly to be able to pivot
+* are we positioning ourselves if we commit to UIKit
+* while the Apple frameworks are well supported, they were built up by people just like you and I with, for the most part, the same access we have to the underlying SDK
+* learning how to build these up ourselves

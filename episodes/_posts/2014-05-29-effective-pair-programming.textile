@@ -4,7 +4,7 @@ title: Effective Pair Programming
 episode: 03
 duration: '1:15:38'
 bytes: 36067843
-link: http://podcast.effectiveprogramming.com/episodes/2014-05-23-effective-pair-programming.mp3
+link: http://podcast.effectiveprogramming.com/episodes/2014-05-29-effective-pair-programming.mp3
 summary: We discuss Pair Programming - the good, the bad and the space in-between.
 ---
 
