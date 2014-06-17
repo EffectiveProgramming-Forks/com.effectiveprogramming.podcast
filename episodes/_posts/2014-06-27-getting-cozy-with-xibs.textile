@@ -1,0 +1,31 @@
+---
+layout: podcast
+title: Getting Cozy with XIBs
+episode: 05
+duration: '50:48'
+bytes: 24237399
+link: http://podcast.effectiveprogramming.com/episodes/2014-06-17-getting-cozy-with-xibs.mp3
+summary: Join us as we discuss XIBs wrt development speed, merge conflicts, testing, autolayout, UX design, and more!
+---
+
+h3. Hosts
+
+* "twitter.com/TheKnlght":http://www.twitter.com/TheKnlght (Eric Jones)
+* "twitter.com/LutherBaker":http://www.twitter.com/LutherBaker (Luther Baker)
+* "twitter.com/effprog":http://www.twitter.com/effprog
+
+h3. Discussion
+
+Do you prefer code based layout or XIBs? Join us as we discuss our experiences at a recent customer's site.
+
+* speed (faster with xibs)
+* merges
+* UIKit and container views
+* segues
+* general layout
+* autolayout
+* testability
+* prototype driven development
+* UX design/er
+* agility
+* MVC/P
