@@ -2,10 +2,10 @@
 layout: podcast
 title: Meetings, Models and Tech Debt
 episode: 201501
-duration: '59:12'
-bytes: 28212979
-link: http://podcast.effectiveprogramming.com/episodes/2014-05-15-tdd-in-the-balance.mp3
-summary: We discuss the merits of TDD on the heels of @dhh's "TDD is Dead, Long Live Testing"
+duration: '1:00:56'
+bytes: 40746139
+link: http://podcast.effectiveprogramming.com/episodes/2015-01-22-meetings-models-techdebt.mp3
+summary: We discuss Inception Meetings, View Models and Technical Debt.
 ---
 
 h3. Subscribe
