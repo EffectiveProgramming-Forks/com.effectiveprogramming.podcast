@@ -1,0 +1,41 @@
+---
+layout: podcast
+title: Meetings, Models and Tech Debt
+episode: 201501
+duration: '59:12'
+bytes: 28212979
+link: http://podcast.effectiveprogramming.com/episodes/2014-05-15-tdd-in-the-balance.mp3
+summary: We discuss the merits of TDD on the heels of @dhh's "TDD is Dead, Long Live Testing"
+---
+
+h3. Subscribe
+
+* "iTunes":https://itunes.apple.com/us/podcast/effective-programming-podcast/id878947397 
+* "RSS":http://feeds.effectiveprogramming.com/EffectiveProgrammingPodcast
+
+h3. Hosts
+
+* Luther Baker
+* Eric Jones
+* Mark Sands
+
+h3. Discussion
+
+* Inception Meetings
+* View Models
+* Tech Debt
+
+h3. Picks
+
+* "How 343 Ruined Halo":http://www.nerdst.com/blog/2015/1/8/how-343-ruined-halo
+* "Mock Roles, Not Objects":http://www.jmock.org/oopsla2004.pdf
+* "Learn You Some Erlang":http://learnyousomeerlang.com/
+
+h3. Contact Information
+
+* "twitter.com/effprog":http://www.twitter.com/effprog
+* "twitter.com/LutherBaker":http://www.twitter.com/LutherBaker
+* "twitter.com/theknlght":http://www.twitter.com/TheKnlght
+* "twitter.com/marksands":http://www.twitter.com/marksands
+* "Effective Programming":http://www.effectiveprogramming.com/
+* "Effective Programming Podcasts":http://podcast.effectiveprogramming.com/
